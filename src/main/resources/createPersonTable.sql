@@ -1,0 +1,8 @@
+CREATE TABLE PERSON
+(
+ID BIGINT  PRIMARY KEY AUTO_INCREMENT,
+FIRST_NAME VARCHAR(255),
+LAST_NAME VARCHAR(255),
+ADDRESS VARCHAR(255)
+);
+insert into Person (ID,first_Name, Last_Name, Address) values (100,'Srinivas','vankam','BE');
